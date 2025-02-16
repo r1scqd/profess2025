@@ -1,0 +1,172 @@
+@import "bootstrap/dist/css/bootstrap.min.css";
+
+#root {
+    margin: 0;
+    text-align: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+html, body{
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+}
+
+header {
+    background: #89FC43;
+    height: 150px;
+    padding-left: 20px;
+    display: flex;
+    align-items: center;
+    gap: 20px
+}
+
+
+.logo {
+    height: 130px;
+    width: 130px;
+}
+
+.search {
+    height: 70px;
+    border-radius: 10px;
+    background: white;
+    display: flex;
+    align-items: center;
+    padding: 0 15px;
+    min-width: 70%;
+    color: black;
+}
+
+
+.content {
+    margin: 70px;
+    display: flex;
+    gap: 25px;
+    flex: 1;
+}
+
+
+.contentElement {
+    flex: 1;
+    min-height: 50%;
+    background: lightgray;
+}
+
+.wrapper {
+    height: 100vh;
+}
+
+.dBlock {
+    height: 70px;
+    padding: 0 15px;
+    display: flex;
+    align-items: center;
+    background: #89FC43;
+    text-wrap: nowrap;
+    cursor: pointer;
+}
+
+.dBlockSelected {
+    background: #78B24B;
+    color: white;
+}
+
+.userItem {
+    height: 150px;
+    background: #89FC43;
+    align-items: start;
+    padding: 4px;
+    text-wrap: nowrap;
+}
+
+.userItemDel {
+    background: gray;
+    border: black solid 2px;
+}
+
+.userList {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+}
+
+
+.myModalBody {
+    min-width: 1000px;
+    min-height: 500px;
+    background: lightgray;
+    display: flex;
+}
+
+.myModalElements {
+    flex: 1;
+    min-height: 50%;
+    background: white;
+    margin: 10px;
+}
+
+.pencil {
+    position: absolute;
+    right: 8px;
+    bottom: 16px;
+    cursor: pointer;
+    z-index: 999;
+}
+
+.dismissUser {
+    position: absolute;
+    left: 8px;
+    bottom: 16px;
+    cursor: pointer;
+    z-index: 999;
+}
+
+.addUser {
+    position: absolute;
+    right: 8px;
+    bottom: 8px;
+    cursor: pointer;
+    z-index: 999;
+}
+
+.filter {
+    background: #89FC43;
+    height: 50px;
+    color: black;
+}
+
+.filterEnable {
+    background: #78B24B;
+}
+
+
+.event {
+    background: gray;
+    color: black;
+    padding: 4px;
+}
+
+.qrbtn {
+    cursor: pointer;
+    text-decoration: none;
+}
+
+
+.newsItem {
+    width: 400px;
+    height: 300px;
+}
+
+.newsImg {
+    width: 400px;
+    height: 230px;
+}
+
+.newsContent {
+    background: #78B24B;
+    width: 400px;
+    height: 70px;
+}
